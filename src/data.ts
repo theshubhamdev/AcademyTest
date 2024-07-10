@@ -1,4 +1,4 @@
-interface ModuleType {
+export interface ModuleType {
   title: string;
   description: string;
   image: string;
@@ -108,4 +108,4 @@ const MODULE_2: ModuleType = {
       },
 };
 
-export { MODULE_1, MODULE_2, ModuleType };
+export { MODULE_1, MODULE_2 };
