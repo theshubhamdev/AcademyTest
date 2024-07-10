@@ -63,7 +63,7 @@ export function CourseStructureCard({ modules, className, ...props }: Props) {
         className="h-[410px] overflow-y-scroll bg-black py-4 grid gap-4"
       >
         {modules?.modules?.map((item, index) => (
-          <div className=" bg-neutral-900 flex items-center space-x-2 rounded-md border-gray-800 p-4">
+          <div key={index} className=" bg-neutral-900 flex items-center space-x-2 rounded-md border-gray-800 p-4">
             <Image
               className="rounded-lg"
               src={item.img}
